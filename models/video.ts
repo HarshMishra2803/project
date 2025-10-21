@@ -61,7 +61,7 @@ const videoSchema = new Schema<Ivideo>(
     },
   },
   {
-    timestamps: true,
+    timestamps: true, // created at updated at
   }
 ); 
 const video = models?.video || model<Ivideo>("video", videoSchema);
