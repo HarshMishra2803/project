@@ -38,6 +38,14 @@ const videoSchema = new Schema<Ivideo>(
       type: String,
       required: true,
     },
+    thumbnailPublicId: {
+      type: String,
+      required: false,
+    },
+    videoPublicId: {
+      type: String,
+      required: false,
+    },
     controls: {
       type: Boolean,
       default: true,
