@@ -26,6 +26,10 @@ const videoSchema = new Schema<Ivideo>(
       type: String,
       required: true,
     },
+    title2:{
+      type: String,
+      required: false,
+    },
     discription: {
       type: String,
       required: true,
@@ -46,10 +50,12 @@ const videoSchema = new Schema<Ivideo>(
       type: String,
       required: false,
     },
+
     controls: {
       type: Boolean,
       default: true,
     },
+    
     transformations: {
       height: {
         type: Number,
