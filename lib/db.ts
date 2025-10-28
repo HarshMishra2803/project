@@ -37,4 +37,5 @@ export async function dbConnect() {
 
     }
     return cached.conn;
+
 }

@@ -30,6 +30,11 @@ const videoSchema = new Schema<Ivideo>(
       type: String,
       required: false,
     },
+    title2:{
+      type: String,
+      required: false,
+    },
+
     discription: {
       type: String,
       required: true,
